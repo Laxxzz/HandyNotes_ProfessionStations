@@ -1,0 +1,10 @@
+{
+  "githubRepo": "Laxxzz/HandyNotes_ProfessionStations",
+  "targets": ["mirror", "github", "curse", "wago", "wowi"],
+  "mirror": {
+    "url": "https://github.com/Laxxzz/HandyNotes_ProfessionStations.git"
+  },
+  "baseBranch": "master",
+  "requiredEntries": ["Core.lua", "Plugin.lua", "Data/Forever.lua", "Data/Retail.lua"],
+  "forbiddenEntries": ["dev/", "tools/", "docs/", "\\.claude/", "CLAUDE\\.md$", "AGENTS\\.md$"]
+}

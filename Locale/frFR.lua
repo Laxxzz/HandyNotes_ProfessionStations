@@ -1,0 +1,50 @@
+-- French draft (machine-made), addressed as vous like Blizzard's frFR strings.
+-- Command words (/pstations add, restore, types) stay English. Yards are "mètres" in frFR.
+local _, ns = ...
+
+ns.Locale.Register("frFR", {
+	["Profession Stations"] = "Stations de métier",
+	["Crafting station"] = "Station d’artisanat",
+	["Recorded by you"] = "Enregistré par vous",
+	["Click: set a TomTom waypoint"] = "Clic : placer un point de passage TomTom",
+	["Shift-right-click: delete this pin"] = "Maj-clic droit : supprimer ce repère",
+	["Shift-right-click: hide this pin"] = "Maj-clic droit : masquer ce repère",
+	["Deleted your %s pin."] = "Votre repère %s a été supprimé.",
+	["Hid %s. /pstations restore shows hidden pins again."] = "%s masqué. /pstations restore réaffiche les repères masqués.",
+	["Check all"] = "Tout cocher",
+	["Show or hide every %s station type below."] = "Afficher ou masquer tous les types de station ci-dessous (%s).",
+	["Built-in pins: %s.\nRecord a missing station where you stand with /pstations add <station type>; shift-right-click a wrong pin to hide it."] = "Repères intégrés : %s.\nEnregistrez une station manquante à votre position avec /pstations add <type de station> ; Maj-clic droit sur un repère erroné le masque.",
+	["none for this game"] = "aucun pour ce jeu",
+	["Icon scale"] = "Taille des icônes",
+	["Icon alpha"] = "Opacité des icônes",
+	["Show on the minimap"] = "Afficher sur la minicarte",
+	["Show built-in pins"] = "Afficher les repères intégrés",
+	["Show pins you recorded"] = "Afficher vos repères",
+	["Station types"] = "Types de station",
+	["Show hidden pins again"] = "Réafficher les repères masqués",
+	["No map position here (instances have none)."] = "Aucune position sur la carte ici (les instances n’en ont pas).",
+	["No map position here."] = "Aucune position sur la carte ici.",
+	["%d hidden pins shown again."] = {
+		one = "%d repère masqué réaffiché.",
+		other = "%d repères masqués réaffichés.",
+	},
+	["Commands:"] = "Commandes :",
+	["open these settings in HandyNotes"] = "ouvrir ces paramètres dans HandyNotes",
+	["<station type> [label]"] = "<type de station> [nom]",
+	["record a station where you stand"] = "enregistrer une station à votre position",
+	["delete or hide the nearest pin (within %d yards)"] = {
+		one = "supprimer ou masquer le repère le plus proche (à %d mètre maximum)",
+		other = "supprimer ou masquer le repère le plus proche (à %d mètres maximum)",
+	},
+	["show hidden pins again"] = "réafficher les repères masqués",
+	["list the station types"] = "lister les types de station",
+	["your map and position"] = "votre carte et votre position",
+	["Which one? %s"] = "Lequel ? %s",
+	["Unknown station type. /pstations types lists them."] = "Type de station inconnu. /pstations types en donne la liste.",
+	["Recorded %s at %s %.1f, %.1f."] = "%s enregistré : %s %.1f, %.1f.",
+	["No shown pin within %d yards."] = {
+		one = "Aucun repère affiché à %d mètre maximum.",
+		other = "Aucun repère affiché à %d mètres maximum.",
+	},
+	["Station types: %s"] = "Types de station : %s",
+})

@@ -1,0 +1,51 @@
+## Interface: 120105, 16001
+## Title: HandyNotes: Profession Stations
+## Title-deDE: HandyNotes: Berufsstationen
+## Title-esES: HandyNotes: Estaciones de profesión
+## Title-esMX: HandyNotes: Estaciones de profesión
+## Title-frFR: HandyNotes: Stations de métier
+## Title-itIT: HandyNotes: Postazioni professionali
+## Title-koKR: HandyNotes: 전문기술 작업대
+## Title-ptBR: HandyNotes: Estações de Profissão
+## Title-ruRU: HandyNotes: Станции профессий
+## Title-zhCN: HandyNotes: 专业制作台
+## Title-zhTW: HandyNotes: 專業製作台
+## Notes: Pins anvils, forges, cooking fires and every other profession crafting station on the map.
+## Notes-deDE: Zeigt Ambosse, Schmieden, Kochstellen und alle anderen Berufsstationen auf der Karte.
+## Notes-esES: Marca en el mapa yunques, forjas, lumbres y todas las demás estaciones de profesión.
+## Notes-esMX: Marca en el mapa yunques, forjas, fuegos de cocina y todas las demás estaciones de profesión.
+## Notes-frFR: Affiche sur la carte enclumes, forges, feux de cuisine et toutes les autres stations de métier.
+## Notes-itIT: Segna sulla mappa incudini, forge, fuochi da cucina e tutte le altre postazioni professionali.
+## Notes-koKR: 모루, 가열로, 요리용 모닥불 등 모든 전문기술 작업대를 지도에 표시합니다.
+## Notes-ptBR: Marca no mapa bigornas, forjas, fogueiras e todas as outras estações de profissão.
+## Notes-ruRU: Показывает на карте наковальни, горны, очаги и все остальные станции профессий.
+## Notes-zhCN: 在地图上标记铁砧、熔炉、烹饪用火以及其他所有专业制作台。
+## Notes-zhTW: 在地圖上標記鐵砧、熔爐、烹飪用火以及其他所有專業製作台。
+## Author: Laxx
+## Version: 1.0.4
+## X-Curse-Project-ID: 1788729
+## X-Wago-ID: n6VY4ENd
+## X-WoWI-ID: 27299
+## X-License: All Rights Reserved
+## Category: Map
+## IconTexture: Interface\AddOns\HandyNotes_ProfessionStations\Media\Icon
+## AddonCompartmentFunc: HandyNotes_ProfessionStations_OnCompartmentClick
+## Dependencies: HandyNotes
+## OptionalDeps: TomTom
+## SavedVariables: HandyNotes_ProfessionStationsDB
+
+Locale.lua
+Locale\deDE.lua [AllowLoadTextLocale deDE]
+Locale\esES.lua [AllowLoadTextLocale esES]
+Locale\esMX.lua [AllowLoadTextLocale esMX]
+Locale\frFR.lua [AllowLoadTextLocale frFR]
+Locale\itIT.lua [AllowLoadTextLocale itIT]
+Locale\koKR.lua [AllowLoadTextLocale koKR]
+Locale\ptBR.lua [AllowLoadTextLocale ptBR]
+Locale\ruRU.lua [AllowLoadTextLocale ruRU]
+Locale\zhCN.lua [AllowLoadTextLocale zhCN]
+Locale\zhTW.lua [AllowLoadTextLocale zhTW]
+Core.lua
+Data\Retail.lua
+Data\Forever.lua
+Plugin.lua

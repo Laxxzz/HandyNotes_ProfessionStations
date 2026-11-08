@@ -1,0 +1,50 @@
+-- German draft (machine-made), addressed as Ihr/Euch like Blizzard's deDE strings.
+-- Command words (/pstations add, restore, types) stay English. Yards are "Meter" in deDE.
+local _, ns = ...
+
+ns.Locale.Register("deDE", {
+	["Profession Stations"] = "Berufsstationen",
+	["Crafting station"] = "Handwerksstation",
+	["Recorded by you"] = "Von Euch erfasst",
+	["Click: set a TomTom waypoint"] = "Klick: TomTom-Wegpunkt setzen",
+	["Shift-right-click: delete this pin"] = "Umschalt-Rechtsklick: Markierung löschen",
+	["Shift-right-click: hide this pin"] = "Umschalt-Rechtsklick: Markierung ausblenden",
+	["Deleted your %s pin."] = "Eure Markierung %s wurde gelöscht.",
+	["Hid %s. /pstations restore shows hidden pins again."] = "%s ausgeblendet. /pstations restore zeigt ausgeblendete Markierungen wieder an.",
+	["Check all"] = "Alle auswählen",
+	["Show or hide every %s station type below."] = "Alle Stationsarten für %s unten ein- oder ausblenden.",
+	["Built-in pins: %s.\nRecord a missing station where you stand with /pstations add <station type>; shift-right-click a wrong pin to hide it."] = "Mitgelieferte Markierungen: %s.\nErfasst eine fehlende Station an Eurer Position mit /pstations add <Stationsart>; Umschalt-Rechtsklick blendet eine falsche Markierung aus.",
+	["none for this game"] = "keine für dieses Spiel",
+	["Icon scale"] = "Symbolgröße",
+	["Icon alpha"] = "Symboldeckkraft",
+	["Show on the minimap"] = "Auf der Minikarte anzeigen",
+	["Show built-in pins"] = "Mitgelieferte Markierungen anzeigen",
+	["Show pins you recorded"] = "Eigene Markierungen anzeigen",
+	["Station types"] = "Stationsarten",
+	["Show hidden pins again"] = "Ausgeblendete Markierungen wieder anzeigen",
+	["No map position here (instances have none)."] = "Hier gibt es keine Kartenposition (Instanzen haben keine).",
+	["No map position here."] = "Hier gibt es keine Kartenposition.",
+	["%d hidden pins shown again."] = {
+		one = "%d ausgeblendete Markierung wird wieder angezeigt.",
+		other = "%d ausgeblendete Markierungen werden wieder angezeigt.",
+	},
+	["Commands:"] = "Befehle:",
+	["open these settings in HandyNotes"] = "diese Einstellungen in HandyNotes öffnen",
+	["<station type> [label]"] = "<Stationsart> [Bezeichnung]",
+	["record a station where you stand"] = "eine Station an Eurer Position erfassen",
+	["delete or hide the nearest pin (within %d yards)"] = {
+		one = "nächste Markierung löschen oder ausblenden (im Umkreis von %d Meter)",
+		other = "nächste Markierung löschen oder ausblenden (im Umkreis von %d Metern)",
+	},
+	["show hidden pins again"] = "ausgeblendete Markierungen wieder anzeigen",
+	["list the station types"] = "die Stationsarten auflisten",
+	["your map and position"] = "Eure Karte und Position",
+	["Which one? %s"] = "Welche? %s",
+	["Unknown station type. /pstations types lists them."] = "Unbekannte Stationsart. /pstations types listet sie auf.",
+	["Recorded %s at %s %.1f, %.1f."] = "%s erfasst bei %s %.1f, %.1f.",
+	["No shown pin within %d yards."] = {
+		one = "Keine angezeigte Markierung im Umkreis von %d Meter.",
+		other = "Keine angezeigte Markierung im Umkreis von %d Metern.",
+	},
+	["Station types: %s"] = "Stationsarten: %s",
+})

@@ -1,0 +1,8 @@
+package-as: HandyNotes_ProfessionStations
+
+ignore:
+  - dev
+  - tools
+  - docs
+  - .gitignore
+  - CLAUDE.md

@@ -1,0 +1,24 @@
+HandyNotes: Profession Stations
+
+Copyright (c) 2026 Laxx. All rights reserved.
+
+This addon and its source code are copyrighted to their author. All rights not
+explicitly granted below are reserved.
+
+You may:
+
+  - Install and use this addon.
+  - Modify your own copy, privately, for your own use.
+
+You may not, without prior written permission from the author:
+
+  - Redistribute this addon, in whole or in part, modified or unmodified.
+  - Publish it to any addon host, package manager, repository or compilation.
+  - Incorporate any part of its source into another project.
+
+This addon requires HandyNotes, which you install separately, and uses the
+libraries that HandyNotes ships at run time.
+
+World of Warcraft and Blizzard Entertainment are trademarks or registered
+trademarks of Blizzard Entertainment, Inc. This addon is not affiliated with or
+endorsed by Blizzard Entertainment.

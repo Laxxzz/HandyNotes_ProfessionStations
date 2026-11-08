@@ -1,0 +1,50 @@
+-- Italian draft (machine-made), addressed as tu like Blizzard's itIT strings.
+-- Command words (/pstations add, restore, types) stay English. Yards are "metri" in itIT.
+local _, ns = ...
+
+ns.Locale.Register("itIT", {
+	["Profession Stations"] = "Postazioni professionali",
+	["Crafting station"] = "Postazione di creazione",
+	["Recorded by you"] = "Registrato da te",
+	["Click: set a TomTom waypoint"] = "Clic: imposta un punto di passaggio TomTom",
+	["Shift-right-click: delete this pin"] = "Maiusc-clic destro: elimina questo segnalino",
+	["Shift-right-click: hide this pin"] = "Maiusc-clic destro: nascondi questo segnalino",
+	["Deleted your %s pin."] = "Il tuo segnalino %s è stato eliminato.",
+	["Hid %s. /pstations restore shows hidden pins again."] = "%s nascosto. /pstations restore mostra di nuovo i segnalini nascosti.",
+	["Check all"] = "Seleziona tutto",
+	["Show or hide every %s station type below."] = "Mostra o nascondi tutti i tipi di postazione di %s qui sotto.",
+	["Built-in pins: %s.\nRecord a missing station where you stand with /pstations add <station type>; shift-right-click a wrong pin to hide it."] = "Segnalini inclusi: %s.\nRegistra una postazione mancante dove ti trovi con /pstations add <tipo di postazione>; Maiusc-clic destro su un segnalino errato lo nasconde.",
+	["none for this game"] = "nessuno per questo gioco",
+	["Icon scale"] = "Scala delle icone",
+	["Icon alpha"] = "Opacità delle icone",
+	["Show on the minimap"] = "Mostra sulla minimappa",
+	["Show built-in pins"] = "Mostra i segnalini inclusi",
+	["Show pins you recorded"] = "Mostra i tuoi segnalini",
+	["Station types"] = "Tipi di postazione",
+	["Show hidden pins again"] = "Mostra di nuovo i segnalini nascosti",
+	["No map position here (instances have none)."] = "Nessuna posizione sulla mappa qui (le istanze non ne hanno).",
+	["No map position here."] = "Nessuna posizione sulla mappa qui.",
+	["%d hidden pins shown again."] = {
+		one = "%d segnalino nascosto è di nuovo visibile.",
+		other = "%d segnalini nascosti sono di nuovo visibili.",
+	},
+	["Commands:"] = "Comandi:",
+	["open these settings in HandyNotes"] = "apre queste impostazioni in HandyNotes",
+	["<station type> [label]"] = "<tipo di postazione> [nome]",
+	["record a station where you stand"] = "registra una postazione dove ti trovi",
+	["delete or hide the nearest pin (within %d yards)"] = {
+		one = "elimina o nasconde il segnalino più vicino (entro %d metro)",
+		other = "elimina o nasconde il segnalino più vicino (entro %d metri)",
+	},
+	["show hidden pins again"] = "mostra di nuovo i segnalini nascosti",
+	["list the station types"] = "elenca i tipi di postazione",
+	["your map and position"] = "la tua mappa e posizione",
+	["Which one? %s"] = "Quale? %s",
+	["Unknown station type. /pstations types lists them."] = "Tipo di postazione sconosciuto. /pstations types li elenca.",
+	["Recorded %s at %s %.1f, %.1f."] = "%s registrato in %s %.1f, %.1f.",
+	["No shown pin within %d yards."] = {
+		one = "Nessun segnalino visibile entro %d metro.",
+		other = "Nessun segnalino visibile entro %d metri.",
+	},
+	["Station types: %s"] = "Tipi di postazione: %s",
+})

@@ -1,0 +1,50 @@
+-- Spanish (Latin America) draft (machine-made), addressed as tú like Blizzard's esMX strings.
+-- Command words (/pstations add, restore, types) stay English. Yards are "metros" in esMX.
+local _, ns = ...
+
+ns.Locale.Register("esMX", {
+	["Profession Stations"] = "Estaciones de profesión",
+	["Crafting station"] = "Estación de fabricación",
+	["Recorded by you"] = "Registrado por ti",
+	["Click: set a TomTom waypoint"] = "Clic: establecer un punto de ruta de TomTom",
+	["Shift-right-click: delete this pin"] = "Shift-clic derecho: eliminar este marcador",
+	["Shift-right-click: hide this pin"] = "Shift-clic derecho: ocultar este marcador",
+	["Deleted your %s pin."] = "Se eliminó tu marcador de %s.",
+	["Hid %s. /pstations restore shows hidden pins again."] = "%s oculto. /pstations restore vuelve a mostrar los marcadores ocultos.",
+	["Check all"] = "Marcar todos",
+	["Show or hide every %s station type below."] = "Muestra u oculta todos los tipos de estación de %s de abajo.",
+	["Built-in pins: %s.\nRecord a missing station where you stand with /pstations add <station type>; shift-right-click a wrong pin to hide it."] = "Marcadores incluidos: %s.\nRegistra una estación faltante donde estás con /pstations add <tipo de estación>; Shift-clic derecho en un marcador incorrecto lo oculta.",
+	["none for this game"] = "ninguno para este juego",
+	["Icon scale"] = "Escala de íconos",
+	["Icon alpha"] = "Opacidad de íconos",
+	["Show on the minimap"] = "Mostrar en el minimapa",
+	["Show built-in pins"] = "Mostrar marcadores incluidos",
+	["Show pins you recorded"] = "Mostrar tus marcadores",
+	["Station types"] = "Tipos de estación",
+	["Show hidden pins again"] = "Volver a mostrar marcadores ocultos",
+	["No map position here (instances have none)."] = "Aquí no hay posición en el mapa (las instancias no tienen).",
+	["No map position here."] = "Aquí no hay posición en el mapa.",
+	["%d hidden pins shown again."] = {
+		one = "Se volvió a mostrar %d marcador oculto.",
+		other = "Se volvieron a mostrar %d marcadores ocultos.",
+	},
+	["Commands:"] = "Comandos:",
+	["open these settings in HandyNotes"] = "abre estas opciones en HandyNotes",
+	["<station type> [label]"] = "<tipo de estación> [nombre]",
+	["record a station where you stand"] = "registra una estación donde estás",
+	["delete or hide the nearest pin (within %d yards)"] = {
+		one = "elimina u oculta el marcador más cercano (a %d metro como máximo)",
+		other = "elimina u oculta el marcador más cercano (a %d metros como máximo)",
+	},
+	["show hidden pins again"] = "vuelve a mostrar los marcadores ocultos",
+	["list the station types"] = "muestra los tipos de estación",
+	["your map and position"] = "tu mapa y posición",
+	["Which one? %s"] = "¿Cuál? %s",
+	["Unknown station type. /pstations types lists them."] = "Tipo de estación desconocido. /pstations types los muestra.",
+	["Recorded %s at %s %.1f, %.1f."] = "%s registrado en %s %.1f, %.1f.",
+	["No shown pin within %d yards."] = {
+		one = "No hay ningún marcador visible a %d metro o menos.",
+		other = "No hay ningún marcador visible a %d metros o menos.",
+	},
+	["Station types: %s"] = "Tipos de estación: %s",
+})

@@ -1,0 +1,11 @@
+{
+  "branch": "master",
+  "addonsDirs": [
+    "{wow}\\_forever_\\Interface\\AddOns",
+    "{retail}"
+  ],
+  "checks": [
+    { "name": "Test-WowAddon -StrictMethods", "run": ["{ref}\\scripts\\Test-WowAddon.ps1", "{repo}", "-StrictMethods"] },
+    { "name": "locale audit", "run": ["{python}", "tools\\locale_audit.py"] }
+  ]
+}
